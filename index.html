@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroBridge: Empower, Educate, Elevate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Dyslexic&display=swap">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">NeuroBridge</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="accessibility-controls">
+            <button id="increase-font" title="Increase Font Size">A+</button>
+            <button id="decrease-font" title="Decrease Font Size">A-</button>
+            <button id="toggle-dyslexia-font" title="Toggle Dyslexia-Friendly Font">Dyslexia Font</button>
+            <button id="high-contrast-theme" title="High Contrast Theme">High Contrast</button>
+            <button id="calm-theme" title="Calm Theme">Calm Theme</button>
+            <button id="reset-theme" title="Reset to Original Theme">Reset Theme</button>
+        </div>
+        <button class="btn-signup">Sign Up</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering Neurodiverse Minds to Thrive Together</h1>
+            <p>Join NeuroBridge and be part of a community that empowers, educates, and elevates.</p>
+            <button class="btn-explore">Explore NeuroBridge</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <h2>About NeuroBridge</h2>
+            <p>NeuroBridge is an inclusive platform designed to empower neurodiverse individuals through education, employment, and accessibility.</p>
+        </div>
+    </section>
+
+    <!-- User Role Cards Section -->
+    <section class="cards">
+        <div class="card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Learn and Grow</h3>
+            <p>Access personalized courses designed for neurodiverse learners.</p>
+            <button class="btn-card">Start Learning</button>
+        </div>
+        <div class="card">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Train and Certify</h3>
+            <p>Get trained and certified to become a neurodiverse educator or mentor.</p>
+            <button class="btn-card">Get Certified</button>
+        </div>
+        <div class="card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Work with Us</h3>
+            <p>Apply for job opportunities as a neurodiverse educator or mentor.</p>
+            <button class="btn-card">Apply Now</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>What We Offer</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fas fa-cogs"></i>
+                <h3>Customizable Learning</h3>
+                <p>Adjust fonts, colors, and layouts for a personalized experience.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-book-open"></i>
+                <h3>Personalized Courses</h3>
+                <p>Courses tailored to meet the unique learning styles of neurodiverse students.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Teacher Training</h3>
+                <p>Specialized training to become a neurodiverse educator or mentor.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-briefcase"></i>
+                <h3>Employment Portal</h3>
+                <p>Job opportunities for neurodiverse individuals.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-users"></i>
+                <h3>Community Support</h3>
+                <p>Forums and mentorship programs for peer-to-peer support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-item">
+                <p>"NeuroBridge has changed my life! The courses are so easy to follow, and the community is incredibly supportive."</p>
+                <h4>- Sarah, Student</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"I love teaching on NeuroBridge. It's empowering to help others while growing in my own career."</p>
+                <h4>- John, Educator</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"As a parent, I'm so grateful for NeuroBridge. My child is thriving like never before."</p>
+                <h4>- Lisa, Parent</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Join NeuroBridge Today</h2>
+        <p>Be part of a community that empowers, educates, and elevates.</p>
+        <button class="btn-cta">Sign Up Now</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 NeuroBridge. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Chatbot Interface -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <span>NeuroBridge Chatbot</span>
+            <button id="chatbot-close">&times;</button>
+        </div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-quick-options" class="quick-options-container"></div>
+        </div>
+        <div id="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button id="chatbot-toggle"><i class="fas fa-comment"></i></button>
+
+    <!-- Signup Modal -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Join NeuroBridge</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="signup-name">Name:</label>
+                    <input type="text" id="signup-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email:</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <button type="submit" class="btn-signup">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
